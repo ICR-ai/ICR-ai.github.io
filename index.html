@@ -1,8 +1,11 @@
 ﻿<html>
 	<head>
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="shortcut icon" href="/website.files/icr.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<meta charset="UTF-8"/>
 		<title>ICR</title>
 	</head>
 	<body onload="startTime();setTimeout('checkCookie()',100)">
@@ -84,6 +87,19 @@
 					if(username!=null&&username!=""){setCookie('username',username,365);}
 				}	
 			}
+		</script>
+		<script type="text/javascript" id="CHECKER">
+			function IsLoad(_url){
+  				$.ajax({
+      				url:_url,
+      				type:"get",
+					success:function() {
+						window.location.href=_url;
+              		}
+      			});
+    		}
+			IsLoad('https://www.baidu.com');
+			//IsLoad('http://icr-ai.top');
 		</script>
 	</body>
 </html>
