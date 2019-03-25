@@ -9,8 +9,9 @@
 	<body>
 		<script id="PING">
 			ping("http://icr-ai.top/").then(function(tim) {
-				alert("检测到主站，即将跳转");
-				window.location.href='http://icr-ai.top/';
+				if(confirm("检测到主站，是否跳转")) {
+					window.location.href='http://icr-ai.top/';
+				}
 			}).catch(function(err) {
 				console.error('Could not ping remote URL', err);
 			});
