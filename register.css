@@ -1,0 +1,8 @@
+body{
+	background:url(website.files/bk.png)fixed center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+pre{color:azure;}

@@ -1,0 +1,13 @@
+body{
+	background:url(website.files/bk.png)fixed center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a:link,a:visited{
+	font-size:15px;
+    color:rgb(236, 236, 228);
+    background-color:RGBA(50,50,50,1);
+	height:50px;
+	width:165px;
+}
