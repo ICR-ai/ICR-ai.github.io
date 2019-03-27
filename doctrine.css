@@ -12,7 +12,6 @@ body{
 	padding-top:1px;
 	padding-bottom:20px;
 	border-radius:10px;
-
 }
 a#icr,a#files,a#doctrine,a#login,#register{
 	display:inline-block;
@@ -35,4 +34,28 @@ a#doc{
     	color:rgb(236, 236, 228);
 	height:50px;
 	width:165px;
+}
+#doctrine-main {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 12px 12px 12px 12px;
+	color: rgb(236, 236, 228);
+	font-size: 18px;
+	min-height: 80%;
+	padding-left: 36px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	line-height: 250%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+}
+.topicline a {
+	border-radius: 12px 12px 12px 12px;
+	background-color: rgb(48, 48, 48);
+}
+.topicline a:hover {
+	background-color: rgb(56, 56, 56);
+	transform: scale(1.2);
+	transition: all 0.3s;
 }
