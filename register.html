@@ -5,11 +5,36 @@
 		<title>Register - ICR</title>
 		<link rel="shortcut icon" href="/website.files/icr.ico" type="image/x-icon">
 	</head>
-	<pre>User ID:</pre>
-	<input type="text"> </br>
-	<pre>Password:</pre>
-	<input type="password">
-	<pre>Confirm Password</pre>
-	<input type="password"></br>
-	<input type="submit">
+	<body>
+		<div class="topicline" id="top">
+			<a href="/" id="icr">ICR</a>
+			<a href="files.html" id="files">Files</a>
+			<a href="doctrine.html" id="doctrine">Doctrine</a>
+			<a href="register.html" id="register">Register</a>
+			<a href="login.html" id="login">Login</a>
+			<!--<a onclick="Two(this)" id="demo">2^0=1</a>-->
+		</div>
+		<big>
+			<pre style="position:absolute;left:80px;top:80px;" id="fk1">User ID:</pre>
+			<input type="text" style="position:absolute;left:80px;top:120px;" id="fk2">
+			<pre style="position:absolute;left:80px;top:140px;" id="fk3">Password:</pre>
+			<input type="password" style="position:absolute;left:80px;top:180px;" id="fk4">
+			<pre style="position:absolute;left:80px;top:140px;" id="fk5">Comfirm Password:</pre>
+			<input type="password" style="position:absolute;left:80px;top:180px;" id="fk6">
+			<input type="submit" style="position:absolute;left:80px;top:220px;" id="fk7">
+		</big>
+		<script>
+			var w=window.innerWidth,h=window.innerHeight;
+			document.getElementById("top").style.width=w-100;
+			document.getElementById("register").style.position="absolute";
+			document.getElementById("register").style.left=w-210+"px";
+			document.getElementById("login").style.position="absolute";
+			document.getElementById("login").style.left=w-350+"px";
+			for(var i=1;i<=7;i++){
+				document.getElementById("fk"+i).style.position="absolute";
+				document.getElementById("fk"+i).style.left=w/2-80+"px";
+				document.getElementById("fk"+i).style.top=h/3+40*(i-1)+"px";
+			}
+		</script>
+	</body>
 </html>
