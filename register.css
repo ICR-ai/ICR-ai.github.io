@@ -1,3 +1,9 @@
+body{
+	background:url(website.files/bk.png)fixed center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .topicline{
 	background-color:rgb(68,68,68);
 	height:50px;
@@ -6,9 +12,8 @@
 	padding-top:1px;
 	padding-bottom:20px;
 	border-radius:10px;
-
 }
-a{
+.topicline a {
 	display:inline-block;
 	font-weight:bold;
 	font-size:20px;
@@ -24,22 +29,7 @@ a{
 	border-radius:30px;
 	text-decoration:none;
 }
-#Time{
-	position:absolute;
-	top:90px;
-	left:700px;
-	font-size:20px;
-	color:RGBA(255,255,255,1);
-}
-#Nav{
-	position:absolute;
-	top:750px;
-	color:RGBA(255,255,255,1);
-}
-body{
-	background:url(website.files/bk.png)fixed center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
+.topicline a:hover {
+	color: rgb(216, 216, 216);
 }
 pre{color:azure;}
