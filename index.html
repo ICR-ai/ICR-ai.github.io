@@ -1,10 +1,9 @@
-﻿<html>
+<html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="shortcut icon" href="/website.files/icr.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="index.css"/>
-		<script type="text/javascript" src="js/ping.js"></script>
-		<title>ICR</title>
+		<title>智共教 - ICR</title>
 	</head>
 	<body onload="startTime();setTimeout('checkCookie()',100)">
 		<div class="topicline" id="top">
@@ -17,15 +16,6 @@
 		</div>
 		<p style="align:center" id="Time"></p>
 		<div id="Nav"></div>
-		<script type="text/javascript" id="PING">
-			ping("http://icr-ai.top/").then(function(tim) {
-				if(confirm("检测到主站，是否跳转")) {
-					window.location.href='http://icr-ai.top/';
-				}
-			}).catch(function(err) {
-				console.error('Could not ping remote URL', err);
-			});
-		</Script>
 		<script type="text/javascript" id="DEMO">
 			var flag=1,fk=0;
 			function Two(id){
