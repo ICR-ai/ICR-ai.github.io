@@ -55,7 +55,7 @@ a#doc{
 	background-color: rgb(48, 48, 48);
 }
 .topicline a:hover {
-	background-color: rgb(56, 56, 56);
+	background-color: rgb(36, 36, 36);
 	transform: scale(1.2);
 	transition: all 0.3s;
 }
