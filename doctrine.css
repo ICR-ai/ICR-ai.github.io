@@ -13,7 +13,7 @@ body{
 	padding-bottom:20px;
 	border-radius:10px;
 }
-a#icr,a#files,a#doctrine,a#login,#register{
+.topicline a {
 	display:inline-block;
 	font-weight:bold;
 	font-size:20px;
@@ -28,6 +28,9 @@ a#icr,a#files,a#doctrine,a#login,#register{
 	padding:4px;
 	border-radius:30px;
 	text-decoration:none;
+}
+.topicline a:hover {
+	color: rgb(216, 216, 216);
 }
 a#doc{
 	font-size:15px;
@@ -49,13 +52,4 @@ a#doc{
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 20px;
-}
-.topicline a {
-	border-radius: 12px 12px 12px 12px;
-	background-color: rgb(48, 48, 48);
-}
-.topicline a:hover {
-	background-color: rgb(36, 36, 36);
-	transform: scale(1.2);
-	transition: all 0.3s;
 }
