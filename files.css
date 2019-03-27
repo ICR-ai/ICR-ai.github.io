@@ -14,7 +14,7 @@ body{
 	border-radius:10px;
 
 }
-a#icr,a#files,a#doctrine,a#login,#register{
+.topicline a {
 	display:inline-block;
 	font-weight:bold;
 	font-size:20px;
@@ -29,6 +29,9 @@ a#icr,a#files,a#doctrine,a#login,#register{
 	padding:4px;
 	border-radius:30px;
 	text-decoration:none;
+}
+.topicline a:hover {
+	color: rgb(216, 216, 216);
 }
 a#dn{
 	font-size:15px;
