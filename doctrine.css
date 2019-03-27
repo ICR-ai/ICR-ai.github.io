@@ -1,0 +1,38 @@
+body{
+	background:url(website.files/bk.png)fixed center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.topicline{
+	background-color:rgb(68,68,68);
+	height:50px;
+	width:1400px;
+	margin-left:50px;
+	padding-top:1px;
+	padding-bottom:20px;
+	border-radius:10px;
+
+}
+a#icr,a#files,a#doctrine,a#login,#register{
+	display:inline-block;
+	font-weight:bold;
+	font-size:20px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	color:rgb(184,184,184);
+	height:30px;
+	width:100px;
+	margin-left:20px;
+	margin-top:15px;
+	/* margin:auto; */
+	text-align:center;
+	padding:4px;
+	border-radius:30px;
+	text-decoration:none;
+}
+a#doc{
+	font-size:15px;
+    	color:rgb(236, 236, 228);
+	height:50px;
+	width:165px;
+}
