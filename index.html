@@ -3,7 +3,6 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="shortcut icon" href="/website.files/icr.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="index.css"/>
-		<script type="text/javascript" src="js/ping.js"></script>
 		<title>智共教 - ICR</title>
 	</head>
 	<body onload="startTime();setTimeout('checkCookie()',100)">
@@ -11,9 +10,7 @@
 			<a href="">ICR</a>
 			<a href="files.html">Files</a>
 			<a href="doctrine.html">Doctrine</a>
-			<a href="register.html" id="register">Register</a>
-			<a href="login.html" id="login">Login</a>
-			<!--<a onclick="Two(this)" id="demo">2^0=1</a>-->
+			<a onclick="alert('QQ group : 936511119');" id="register">Join us</a>
 		</div>
 		<p style="align:center" id="Time"></p>
 		<div id="Nav"></div>
@@ -43,22 +40,11 @@
 				return i;
 			}
 		</script>
-		<script type="text/javascript" id="PING">
-			ping("http://icr-ai.top/").then(function(tim) {
-				if(confirm("检测到主站，是否跳转")) {
-					window.location.href='http://icr-ai.top/';
-				}
-			}).catch(function(err) {
-				console.error('Could not ping remote URL', err);
-			});
-		</Script>
 		<script>
 			var w=window.innerWidth;
 			document.getElementById("top").style.width=w-100;
 			document.getElementById("register").style.position="absolute";
 			document.getElementById("register").style.left=w-210+"px";
-			document.getElementById("login").style.position="absolute";
-			document.getElementById("login").style.left=w-350+"px";
 			document.getElementById("Time").style.position="absolute";
 			document.getElementById("Time").style.left=w/2-80+"px";
 			document.getElementById("Time").style.top=60+"px";
